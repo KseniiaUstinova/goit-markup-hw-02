@@ -1,0 +1,119 @@
+:root {
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --white-color: #fff;
+    --button-color: #4d5ae5;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--main-text-color);
+}
+
+.first-letters {
+color: var(--button-color);
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    background-color: var(--main-text-color);
+    color: var(--white-color);
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-button {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+}
+
+.benefits {
+
+}
+
+.benefits-name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+
+.benefits-text {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+}
+
+.our-team-header {
+    font-weight: 700;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 36px;
+}
+
+.team-name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 20px;
+}
+
+.team-profession {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+}
+
+footer {
+background-color: var(--main-text-color);
+}
+
+.footer-logo {
+color: var(--white-color);
+}
+
+.footer-text {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    font-size: 16px;
+}
