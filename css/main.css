@@ -34,6 +34,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: var(--main-text-color);
+    text-decoration: none;
 }
 
 .first-letters {
@@ -45,11 +46,15 @@ color: var(--button-color);
     margin-bottom: 0;
     margin-left: 76px;
     display: flex;
+}
 
-    font-weight: 500;
+.navi-item {
+font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 150%;
     letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-decoration: none;
 }
 
 .navigation li {
@@ -67,12 +72,15 @@ margin-left: 40px;
     margin-top: 0;
     margin-left: auto;
 display: flex;
+}
 
-    color: var(--secondary-text-color);
+.contacts-item {
+color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+text-decoration: none;
 }
 
 .contacts li {
